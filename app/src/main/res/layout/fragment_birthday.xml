@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BirthdayFragment">
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="268dp"
+        android:layout_height="336dp"
+        android:layout_marginStart="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="43dp"
+        android:elevation="4dp"
+        android:padding="26dp"
+        android:text="Computing..."
+        android:textColor="@android:color/holo_purple"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/cakeImageView"
+        android:layout_width="64dp"
+        android:layout_height="76dp"
+        android:layout_above="@id/messageTextView"
+        android:layout_marginBottom="-87dp"
+        android:src="@drawable/ic_birthday_cake" />
+</FrameLayout>
